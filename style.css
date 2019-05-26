@@ -1,0 +1,434 @@
+.body1{
+    background: black;
+    margin: 0;
+}
+.body2{
+    background: black;
+    margin: 0;
+}
+.body3{
+    background: black;
+    margin: 0;
+}
+.body4{
+    background: black;
+    margin: 0;
+}
+.body5{
+    background: black;
+    margin: 0;
+}
+.body6{
+    background: black;
+    margin: 0;
+}
+.body7{
+    background: black;
+    margin: 0;
+}
+.logo{
+    background-image: url("From_Logo.jpg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 200px;
+    margin-left: 36%;
+    display: inline-block;
+}
+.text1{
+    color: white;
+    font-size: 20px;
+    width: 350px;
+    display: inline-block;
+    margin-left: 300px;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 50px;
+    animation: color 4s linear infinite;
+}
+@keyframes color {
+    0%, 100% {border-color: #accc5f;}
+    25% {border-color: #fdc424;}
+    50% {border-color: #ff8a45;}
+    75% {border-color: #d45a5a;}
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+h2{
+   position: sticky;
+   left: 0;  
+   padding: 10px;
+   background-color: #595959;
+    font-weight: bold;
+    font-size: 26px;
+    height: 100%;
+    width: 160px;
+    margin: 0;
+    box-sizing: border-box;
+    border-left: solid 3px black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transition-duration: 1s;
+    text-align: center;
+}
+section{
+    display: flex;
+}
+.DemonSouls{
+    background-image: url("Demon's_Souls_%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_%D0%B8%D0%B3%D1%80%D1%8B.jpg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 637px;
+    height: 383px;
+    background-color: grey;
+}
+.DarkSouls{
+   background-image: url("Dark_Souls_Cover_Art.jpeg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 637px;
+    height: 383px;
+    background-color: grey;
+}
+.DarkSouls2{
+   background-image: url("Dark_souls_2.jpg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 637px;
+    height: 383px;
+    background-color: grey;
+}
+.DarkSouls3{
+   background-image: url("270px-Dark_souls_3_cover_art.jpg"); 
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 637px;
+    height: 383px;
+    background-color: grey;
+}
+.Bloodborne{
+   background-image: url("270px-%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0_Bloodborne.jpg"); 
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 637px;
+    height: 383px;
+    background-color: grey;
+}
+.SekiroShadowsDieTwice{
+   background-image: url("270px-Sekiro_Shadows_Die_Twice.jpg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 637px;
+    height: 383px;
+    background-color: grey;
+}
+.main1{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    overflow-x: scroll;
+    margin: 50px auto;
+}
+div{
+    width: 800px;
+    height: 100%;
+    background-size: 400px auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.a1{
+    text-decoration: none;
+    color: white;
+}
+.logo2{
+    background-image: url("32010005-1518831585.png");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 264px;
+    margin-left: 30%;
+    display: inline-block;
+}
+.text2{
+    color: white;
+    font-size: 20px;
+    width: 350px;
+    display: inline-block;
+    margin-left: 250px;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 50px;
+    animation: color 4s linear infinite;
+    margin-top: 10px;
+}
+h2:hover {
+    font-size: 29px;
+    background: #969696;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-left: 28%;
+}
+.main{
+    font-size: 30px;
+    background: #595959;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 50px;
+    padding: 10px;
+    transition-duration: 1s;
+}
+.next{
+    font-size: 30px;
+    background: #595959;
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 50px;
+    padding: 10px;
+    transition-duration: 1s;
+}
+.back{
+    font-size: 30px;
+    background: #595959;
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 50px;
+    padding: 10px;
+    transition-duration: 1s;
+}
+.main:hover {
+    font-size: 35px;
+    background: #969696;
+}
+.next:hover {
+    font-size: 35px;
+    background: #969696;
+}
+.back:hover {
+    font-size: 35px;
+    background: #969696;
+}
+.text3{
+    font-size: 50px;
+    color: white;
+    background:grey;
+    height: 70px;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+.text4{
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 1px white;
+    padding: 10px;
+}
+.picture1{
+    background-image: url("demons_souls_059.jpg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid 2px white;
+    width: 889px;
+    height: 500px;
+    margin: auto;
+    animation: slaider1 12s steps(1, end) infinite;}
+@keyframes slaider1{
+        0%, 100% {background-image: url("demons_souls_059.jpg");}
+        25% {background-image: url("Demons%20Souls%20Computer%20Wallpaper.jpg");}
+        50% {background-image: url("demonssouls_14.jpg");}
+        75% {background-image: url("demons_souls_screenshot_059cb527.jpeg");}
+    }
+.text5{
+    font-size: 50px;
+    color: white;
+    background:grey;
+    height: 120px;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+.logo3{
+    background-image: url("maxresdefault.jpg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 600px;
+    display: inline-block;
+    margin-left: 20%;
+}
+.text6{
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    display: inline-block;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 50px;
+    animation: color 4s linear infinite;
+    margin-left: 2%;
+}
+.picture2{
+    background-image: url("1J572Ls2InbssxL8.jpg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid 2px white;
+    width: 889px;
+    height: 500px;
+    margin: auto;
+    animation: slaider2 12s steps(1, end) infinite;}
+@keyframes slaider2{
+        0%, 100% {background-image: url("1J572Ls2InbssxL8.jpg");}
+        25% {background-image: url("1522827413_8684.jpeg");}
+        50% {background-image: url("dark-souls-2-22.JPG");}
+        75% {background-image: url("Dark-Souls-5.jpg");}
+    }
+.logo4{
+    background-image: url("Dark-Souls-II-Feature.png");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 400px;
+    display: inline-block;
+    margin-left: 30%;
+}
+.text7{
+    color: white;
+    font-size: 20px;
+    width: 350px;
+    display: inline-block;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 50px;
+    animation: color 4s linear infinite;
+    margin-left: 10%;
+}
+.picture3{
+    background-image: url("392789763128.0.jpeg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid 2px white;
+    width: 889px;
+    height: 500px;
+    margin: auto;
+    animation: slaider3 12s steps(1, end) infinite;}
+@keyframes slaider3{
+        0%, 100% {background-image: url("392789763128.0.jpeg");}
+        25% {background-image: url("20150403133848_8398ebc1.jpg");}
+        50% {background-image: url("dark_souls_2_scholar_of_the_first_sin_screenshot_3570bfff.jpeg");}
+        75% {background-image: url("dark-souls-2-scholar-of-the-first-sin-image-screenshot-7.jpg");}
+    }
+.logo6{
+    background-image: url("artwork.bloodborne.4724x1449.2014-06-10.5.jpg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 400px;
+    display: inline-block;
+    margin-left: 30%;
+}
+.picture5{
+    background-image: url("8446.jpg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid 2px white;
+    width: 889px;
+    height: 500px;
+    margin: auto;
+    animation: slaider5 12s steps(1, end) infinite;}
+@keyframes slaider5{
+        0%, 100% {background-image: url("8446.jpg");}
+        25% {background-image: url("1426067025_1426027145-6.jpg");}
+        50% {background-image: url("20150311221752_c181c9a2.jpg");}
+        75% {background-image: url("screenshot_bloodborne_the_old_hunters_23.jpg");}
+    }
+.logo5{
+    background-image: url("maxresdefault%20(1).jpg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 35%;
+}
+.picture4{
+    background-image: url("dark-souls-3-ringed-city-guide-and-walkthrough-4685-1490704563425.jpg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid 2px white;
+    width: 889px;
+    height: 500px;
+    margin: auto;
+    animation: slaider4 12s steps(1, end) infinite;}
+@keyframes slaider4{
+        0%, 100% {background-image: url("dark-souls-3-ringed-city-guide-and-walkthrough-4685-1490704563425.jpg");}
+        25% {background-image: url("0D4A7tXe.jpg");}
+        50% {background-image: url("9a4e0bca3341b55bb9d6e4481eb530c365189950.jpg");}
+        75% {background-image: url("vv21eiAE.jpg");}
+    }
+.logo7{
+    background-image: url("Sekiro_logo.jpg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 35%;
+}
+.picture6{
+    background-image: url("325222_HlnPpDLm76_d0_rgdfwkaiwhnb.jpg");
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid 2px white;
+    width: 889px;
+    height: 500px;
+    margin: auto;
+    animation: slaider6 12s steps(1, end) infinite;}
+@keyframes slaider6{
+        0%, 100% {background-image: url("325222_HlnPpDLm76_d0_rgdfwkaiwhnb.jpg");}
+        25% {background-image: url("1553202331_2.jpg");}
+        50% {background-image: url("1553202392_1.jpg");}
+        75% {background-image: url("wallhaven-763998.png");}
+}
